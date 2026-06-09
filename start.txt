@@ -1,0 +1,28 @@
+Backend                                       
+  cd backend                           
+  pip install -e ".[dev]"                         
+                                                              
+  # Start Postgres + Redis                          
+  docker compose up -d postgres redis          
+
+  # Run migrations
+  alembic upgrade head
+
+  # Start server
+  uvicorn app.main:app --reload --port 8000
+
+Frontend
+
+  cd frontend
+  npm install
+  npm run dev
+
+  Frontend runs at http://localhost:3000, backend at http://localhost:8000.
+
+  Full stack (Docker, everything at once)
+
+  cp .env.example .env
+  # Set MET_GEMINI_API_KEY in .env
+  docker compose up -d
+
+  Required: Set MET_GEMINI_API_KEY in your .env file for the agents to work.
