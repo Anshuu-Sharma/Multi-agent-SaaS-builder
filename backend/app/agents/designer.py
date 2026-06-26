@@ -44,7 +44,6 @@ class DesignerAgent(BaseAgent):
     display_name: str = "Lead Designer"
     system_prompt: str = DESIGNER_SYSTEM_PROMPT
     llm_config: LLMConfig = LLMConfig(
-        model="gemini-2.0-flash",
         temperature=0.7,
         max_output_tokens=8192,
         response_format="json",

@@ -32,6 +32,8 @@ const PROJECT_STATES: ProjectState[] = [
   "discovery",
   "prd_creation",
   "prd_review",
+  "design",
+  "design_review",
   "architecture",
   "arch_review",
   "budget",
@@ -50,6 +52,8 @@ const STATE_LABELS: Record<string, string> = {
   discovery: "Discovery",
   prd_creation: "PRD",
   prd_review: "PRD Review",
+  design: "Design",
+  design_review: "Design Review",
   architecture: "Architecture",
   arch_review: "Arch Review",
   budget: "Budget",
@@ -71,8 +75,10 @@ const STATE_DOT_COLORS: Record<string, string> = {
   briefing: "bg-[#3A5FCD]",
   discovery: "bg-[#3A5FCD]",
   prd_creation: "bg-[#3A5FCD]",
+  design: "bg-[#3A5FCD]",
   // Review — amber
   prd_review: "bg-[#B8860B]",
+  design_review: "bg-[#B8860B]",
   arch_review: "bg-[#B8860B]",
   budget_review: "bg-[#B8860B]",
   // Build — blue

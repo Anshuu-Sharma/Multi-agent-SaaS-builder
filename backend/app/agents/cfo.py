@@ -82,8 +82,7 @@ class CFOAgent(BaseAgent):
     display_name: str = "CFO"
     system_prompt: str = CFO_SYSTEM_PROMPT
     llm_config: LLMConfig = LLMConfig(
-        model="gemini-2.0-flash",
-        temperature=0.2,
+        temperature=0.1,
         max_output_tokens=8192,
         response_format="json",
     )

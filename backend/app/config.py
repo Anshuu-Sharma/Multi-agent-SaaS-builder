@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     database_url: str = "postgresql+asyncpg://met:metdev@localhost:5432/met"
     redis_url: str = "redis://localhost:6379/0"
     gemini_api_key: str = ""
-    default_llm_model: str = "gemini-2.0-flash"
+    default_llm_model: str = "gemini-2.5-flash"
     workspace_root: str = "./workspaces"
     cors_origins: list[str] = ["http://localhost:3000"]
     max_project_budget_cents: int = 5000

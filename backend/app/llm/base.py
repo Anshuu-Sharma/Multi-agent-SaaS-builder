@@ -3,8 +3,11 @@ from abc import ABC, abstractmethod
 from pydantic import BaseModel
 
 
+from app.config import settings
+from pydantic import Field
+
 class LLMConfig(BaseModel):
-    model: str = "gemini-2.0-flash"
+    model: str = Field(default_factory=lambda: settings.default_llm_model)
     temperature: float = 0.3
     max_output_tokens: int = 8192
     response_format: str = "json"  # "json" or "text"

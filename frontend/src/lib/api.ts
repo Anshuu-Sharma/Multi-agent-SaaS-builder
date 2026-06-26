@@ -10,6 +10,8 @@ export type ProjectState =
   | "discovery"
   | "prd_creation"
   | "prd_review"
+  | "design"
+  | "design_review"
   | "architecture"
   | "arch_review"
   | "budget"

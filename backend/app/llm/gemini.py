@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 # Gemini pricing per 1M tokens (in cents)
 GEMINI_PRICING: dict[str, dict[str, float]] = {
     "gemini-2.0-flash": {"input": 10, "output": 40},
+    "gemini-2.5-flash": {"input": 15, "output": 60},
     "gemini-2.5-flash-preview-05-20": {"input": 15, "output": 60},
     "gemini-2.5-pro-preview-05-06": {"input": 125, "output": 500},
     "gemini-1.5-flash": {"input": 7.5, "output": 30},

@@ -28,9 +28,11 @@ const STATE_COLORS: Record<ProjectState, string> = {
   prd_creation: "bg-[#3A5FCD]/8 text-[#3A5FCD] border border-[#3A5FCD]/15",
   // Review states — amber/gold
   prd_review: "bg-[#B8860B]/8 text-[#B8860B] border border-[#B8860B]/15",
+  design_review: "bg-[#B8860B]/8 text-[#B8860B] border border-[#B8860B]/15",
   arch_review: "bg-[#B8860B]/8 text-[#B8860B] border border-[#B8860B]/15",
   budget_review: "bg-[#B8860B]/8 text-[#B8860B] border border-[#B8860B]/15",
   // Build states — blue
+  design: "bg-[#3A5FCD]/8 text-[#3A5FCD] border border-[#3A5FCD]/15",
   architecture: "bg-[#3A5FCD]/8 text-[#3A5FCD] border border-[#3A5FCD]/15",
   budget: "bg-[#3A5FCD]/8 text-[#3A5FCD] border border-[#3A5FCD]/15",
   sprint_planning: "bg-[#3A5FCD]/8 text-[#3A5FCD] border border-[#3A5FCD]/15",

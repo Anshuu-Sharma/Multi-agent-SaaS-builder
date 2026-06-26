@@ -76,8 +76,7 @@ class CTOAgent(BaseAgent):
     display_name: str = "CTO"
     system_prompt: str = CTO_SYSTEM_PROMPT
     llm_config: LLMConfig = LLMConfig(
-        model="gemini-2.0-flash",
-        temperature=0.3,
+        temperature=0.4,
         max_output_tokens=8192,
         response_format="json",
     )

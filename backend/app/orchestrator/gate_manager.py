@@ -11,6 +11,7 @@ from app.models.audit import AuditLog
 
 GATE_DEFINITIONS = {
     "gate_1_prd": {"number": 1, "name": "CEO approves PRD", "artifact_type": "prd"},
+    "gate_1_design": {"number": 6, "name": "CEO approves design", "artifact_type": "design"},
     "gate_1_arch": {"number": 5, "name": "CEO approves architecture", "artifact_type": "architecture"},
     "gate_2_arch_budget": {"number": 2, "name": "CEO approves budget", "artifact_type": "budget"},
     "gate_3_uat": {"number": 3, "name": "CPO accepts features (UAT)", "artifact_type": "feature"},

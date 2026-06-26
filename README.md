@@ -31,6 +31,18 @@
 
 ---
 
+## 📸 Demo
+
+<div align="center">
+  <img src="demo/demo-1.png" alt="Dashboard Overview" width="800" style="margin-bottom: 20px;">
+  <img src="demo/demo-2.png" alt="Project Overview" width="800" style="margin-bottom: 20px;">
+  <img src="demo/demo-3.png" alt="Task Tracking" width="800" style="margin-bottom: 20px;">
+  <img src="demo/demo-4.png" alt="Workspace Preview" width="800" style="margin-bottom: 20px;">
+  <img src="demo/demo-5.png" alt="Agent Logs" width="800" style="margin-bottom: 20px;">
+</div>
+
+---
+
 ## 💻 Tech Stack
 
 | Layer | Technology | Rationale |
